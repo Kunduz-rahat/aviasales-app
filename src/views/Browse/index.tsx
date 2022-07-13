@@ -1,12 +1,7 @@
-import React from 'react'
-import Layout from '../../components/Layout'
-
+import React from "react";
+import Layout from "../../components/Layout";
 const Browse = () => {
-  return (
-	 <Layout>
-		Browse
-		</Layout>
-  )
-}
+  return <Layout>Browse</Layout>;
+};
 
-export default Browse
+export default Browse;

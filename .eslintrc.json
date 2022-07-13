@@ -28,9 +28,5 @@
         "@typescript-eslint",
         "prettier"
     ],
-    "rules": {
-        "require-jsdoc":"off",
-        "@typescript-eslint/ban-ts-comment":"off",
-        "@typescript-eslint/ban-types":"off"
-    }
-}
+    "rules":  {     "prettier/prettier": ["error", { "endOfLine": "auto" }]   } }
+
