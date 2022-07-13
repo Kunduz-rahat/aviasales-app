@@ -1,25 +1,20 @@
-import React from 'react';
-
-
-function App() {
+import React from 'react'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import Companies from './views/Companies'
+import Home from './views/Home'
+import Tickets from './views/Tickets'
+const App = () => {
   return (
-    <div className="App">
-      <ul className="flex">
-        <li className="mr-6">
-          <a className="text-blue-500 hover:text-blue-800" href="#">Active</a>
-        </li>
-        <li className="mr-6">
-          <a className="text-blue-500 hover:text-blue-800" href="#">Link</a>
-        </li>
-        <li className="mr-6">
-          <a className="text-blue-500 hover:text-blue-800" href="#">Link</a>
-        </li>
-        <li className="mr-6">
-          <a className="text-gray-400 cursor-not-allowed" href="#">Disabled</a>
-        </li>
-      </ul>
-    </div>
-  );
+    <Router>
+      <Switch>
+        <Route exact path='/'>
+          <Home />
+        </Route>
+        <Route path='/tickets'><Tickets /></Route>
+        <Route path='/companies'><Companies /></Route>
+      </Switch>
+    </Router>
+  )
 }
 
-export default App;
+export default App
