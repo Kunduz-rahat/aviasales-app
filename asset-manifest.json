@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Kunduz-rahat/aviasales-app/static/css/main.1c9da088.chunk.css",
+    "main.js": "/Kunduz-rahat/aviasales-app/static/js/main.dc8e2d26.chunk.js",
+    "main.js.map": "/Kunduz-rahat/aviasales-app/static/js/main.dc8e2d26.chunk.js.map",
+    "runtime-main.js": "/Kunduz-rahat/aviasales-app/static/js/runtime-main.76cfa3f9.js",
+    "runtime-main.js.map": "/Kunduz-rahat/aviasales-app/static/js/runtime-main.76cfa3f9.js.map",
+    "static/js/2.3311c847.chunk.js": "/Kunduz-rahat/aviasales-app/static/js/2.3311c847.chunk.js",
+    "static/js/2.3311c847.chunk.js.map": "/Kunduz-rahat/aviasales-app/static/js/2.3311c847.chunk.js.map",
+    "index.html": "/Kunduz-rahat/aviasales-app/index.html",
+    "static/css/main.1c9da088.chunk.css.map": "/Kunduz-rahat/aviasales-app/static/css/main.1c9da088.chunk.css.map",
+    "static/js/2.3311c847.chunk.js.LICENSE.txt": "/Kunduz-rahat/aviasales-app/static/js/2.3311c847.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76cfa3f9.js",
+    "static/js/2.3311c847.chunk.js",
+    "static/css/main.1c9da088.chunk.css",
+    "static/js/main.dc8e2d26.chunk.js"
+  ]
+}
