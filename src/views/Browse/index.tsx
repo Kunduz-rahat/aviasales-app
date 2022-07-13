@@ -1,12 +1,12 @@
 import React from 'react'
 import Layout from '../../components/Layout'
 
-const Tickets = () => {
-	return (
-		<Layout>
-			
+const Browse = () => {
+  return (
+	 <Layout>
+		Browse
 		</Layout>
-	)
+  )
 }
 
-export default Tickets
+export default Browse
