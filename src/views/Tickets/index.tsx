@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../../components/Layout";
+import TicketsList from "../../components/TicketsList";
 const Tickets = () => {
   return (
     <Layout>
@@ -70,6 +71,7 @@ const Tickets = () => {
             </div>
           </div>
         </div>
+        <TicketsList />
       </div>
     </Layout>
   );

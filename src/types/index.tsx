@@ -21,10 +21,7 @@ interface TicketsFailedAction {
   type: TicketActionTypes.TICKETS_FAILED;
   payload: string;
 }
-// export interface TicketAction {
-//   type: string;
-//   payload?: any;
-// }
+
 export type TicketAction =
   | TicketsRequestAction
   | TicketsSuccessAction

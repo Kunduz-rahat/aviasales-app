@@ -11,11 +11,11 @@ export const ticketsReducer = (
 ): TicketState => {
   switch (action.type) {
     case TicketActionTypes.TICKETS_REQUEST:
-      return { ...state, isLoading: true };
+      return { isLoading: true, error: null, tickets: [] };
     case TicketActionTypes.TICKETS_SUCCESS:
-      return { ...state, isLoading: false, tickets: action.payload };
+      return { isLoading: false, tickets: action.payload, error: null };
     case TicketActionTypes.TICKETS_FAILED:
-      return { ...state, isLoading: false, error: action.payload };
+      return { isLoading: false, error: action.payload, tickets: [] };
     default:
       return state;
   }
