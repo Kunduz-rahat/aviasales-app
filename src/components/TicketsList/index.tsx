@@ -22,7 +22,7 @@ const TicketsList: React.FC = () => {
   return (
     <div>
       {tickets.map((ticket) => (
-        <div key={ticket.id}>{ticket.info}</div>
+        <div key={ticket.id}>{ticket.info.stops}</div>
       ))}
     </div>
   );
