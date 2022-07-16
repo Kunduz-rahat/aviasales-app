@@ -5,7 +5,7 @@ interface LayoutProps {
 }
 const Layout: FC<LayoutProps> = ({ children }) => {
   return (
-    <div>
+    <div className="container">
       <Header />
       <main>{children}</main>
     </div>

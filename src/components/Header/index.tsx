@@ -1,41 +1,45 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+
 const Header = () => {
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-white py-4 lg:px-12 shadow border-solid border-t-2 border-blue-700">
-      <div className="flex justify-between lg:w-auto w-full lg:border-b-0 pl-6 pr-2 border-solid border-b-2 border-gray-300 pb-5 lg:pb-0">
-        <NavLink
-          to="/"
-          className="flex items-center flex-shrink-0 text-gray-800 mr-16"
-        >
-          <span className="font-semibold text-xl tracking-tight">
-            AviaSales
-          </span>
-        </NavLink>
+    <div className="m-auto">
+      <div className="mb-12 space-y-2 text-center">
+        <h2 className="text-2xl text-cyan-900 font-bold md:text-4xl">
+          Поиск дешевых авиабилетов
+        </h2>
       </div>
-      <div className="menu w-full lg:block flex-grow lg:flex lg:items-center lg:w-auto lg:px-3 px-8">
-        <div className="text-md font-bold text-blue-700 lg:flex-grow">
-          <NavLink
-            to="/"
-            className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2"
-          >
-            Home
-          </NavLink>
-          <NavLink
-            to="/companies"
-            className=" block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2"
-          >
-            Companies
-          </NavLink>
-          <NavLink
-            to="/tickets"
-            className="block mt-4 lg:inline-block lg:mt-0 hover:text-white px-4 py-2 rounded hover:bg-blue-700 mr-2"
-          >
-            Tickets
-          </NavLink>
+      <form className="m-auto">
+        <div className=" grid-cols-4 gap-3 mb-6 md:grid-cols-2 text-gray-600 ">
+          <input
+            className="border-2 border-gray-300 bg-white h-10 pl-2 pr-8 rounded-lg text-sm focus:outline-none"
+            type="search"
+            name="search"
+            placeholder="Откуда"
+          />
+          <input
+            className="border-2 border-gray-300 bg-white h-10 pl-2 pr-8 rounded-lg text-sm focus:outline-none"
+            type="search"
+            name="search"
+            placeholder="Куда"
+          />
+
+          <input
+            className="border-2 border-gray-300 bg-white h-10 pl-2 pr-8 rounded-lg text-sm focus:outline-none"
+            type="search"
+            name="search"
+            placeholder="Когда"
+          />
+          <input
+            type="text"
+            className="border-2 border-gray-300 bg-white h-10 pl-2 pr-8 rounded-lg text-sm focus:outline-none"
+            placeholder="Select date"
+          />
+          {/* <button type="submit" className=" right-0 top-0 mt-3 mr-2">
+          Найти билеты
+        </button> */}
         </div>
-      </div>
-    </nav>
+      </form>
+    </div>
   );
 };
 
